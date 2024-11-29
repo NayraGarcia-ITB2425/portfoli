@@ -22,7 +22,6 @@ setInterval(() =>{
     Relojdigital()
 },1000);
 
-
 // Validar formulario de contacto
 document.querySelector("#contactForm").addEventListener("submit", function(e) {
     const name = document.querySelector("#name").value;
@@ -55,7 +54,6 @@ document.querySelector("#contactForm").addEventListener("submit", function(e) {
     // Limpiar mensaje de error si todo es correcto
     errorElement.textContent = "";
 });
-
 
 document.addEventListener('DOMContentLoaded', () => {
     const toggleModeBtn = document.getElementById('toggleMode');

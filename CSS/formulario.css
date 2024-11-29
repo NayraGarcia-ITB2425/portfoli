@@ -16,12 +16,12 @@ body {
     gap: 10px;
 }
 body.light-mode {
-    background-color: #fff;
+    background-color: #f0f0f0;
     color: #333;
 }
 
 body.dark-mode {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -64,9 +64,9 @@ header {
 /* Índice a la izquierda */
 /* Barra de navegación */
 nav {
-    background-color: #333;
+    background-color: ;
     padding: 20px;
-    border-right: 3px solid #ffcc00;
+    border-right: 3px;
     font-family: Arial, sans-serif;
 }
 
